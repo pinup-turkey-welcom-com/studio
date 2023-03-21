@@ -1,0 +1,50 @@
+body { 
+	font-family: "Roboto Light","Helvetica","Arial",sans-serif;
+}
+nav {
+	padding-top: 1rem!important;
+	padding-bottom: 1rem!important;
+}
+h1, h2, h3, .navbar-brand, .navbar-brand:hover {
+	font-family: "Roboto Regular","Helvetica","Arial",sans-serif;
+}
+h1, h2, h3 {
+	margin-bottom: 1.5rem;
+}
+.row {
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+}
+.gray {
+	background-color: #f7f7f9;
+}
+footer {
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+.btn-green {
+	background-color: #00695C!important;
+	color: #ffffff!important;
+}
+.breadcrumb {
+	background-color: #f7f7f9!important;
+}
+a, a:hover {
+	color: #00695C;
+}
+.was-validated .form-control:valid~.invalid-feedback {
+    display: none;
+}
+.g-recaptcha.is-invalid {
+    display:inline-block;
+    border: 1px solid #dc3545;
+    border-radius: .25rem;
+}
+@media (max-width: 389px) {
+    .navbar-brand {
+        font-size:16px;
+    }
+    .navbar-toggler {
+        padding: .25rem .5rem;
+    }
+}
